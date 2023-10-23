@@ -76,7 +76,7 @@ td {
 .pg3 {
     margin: 20px;
     padding: 20px;
-    background-color:rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
     /* color: white; */
     border-radius: 20px;
 }
@@ -84,12 +84,6 @@ td {
     font-size: 1.2rem;
 }
 .contact > a {
-}
-#github,
-#ig {
-    display: flex;
-    /* align-items: center; */
-    color:white;
 }
 #copyright {
     font-size: 0.9rem;
