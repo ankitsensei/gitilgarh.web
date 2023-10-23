@@ -6,34 +6,94 @@
     box-sizing: border-box;
     font-family: 'Tilt Neon', sans-serif;
 }
-body{
-    /* background-color: #5a776d; */
+body {
+    /* background-color: #18122b; */
 }
 .main_class {
     background-image: url('imgs/main_img.jpg');
-    margin:20px;
-    padding:20px;
+    margin: 20px;
+    padding: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
     border-radius: 20px;
-
 }
 .pg1 {
     color: #03c988;
     text-align: center;
     font-size: 4rem;
 }
-.pg2{
-    margin:20px;
-    padding:20px;
+.pg2 {
+    margin: 20px;
+    padding: 20px;
     background-color: #03c988;
-    border-radius:20px;
+    border-radius: 20px;
 }
-.pg2>h1{
+.pg2 > h1 {
     text-align: center;
     font-size: 4rem;
 }
-.pg2>p{
+.pg2 > p {
     font-size: 1.2rem;
+}
+.tables {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* background-color: #ffffff; */
+}
+.tables > div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:top,center; */
+    padding: 20px;
+    background-color: #04ae75;
+    border-radius: 20px;
+    box-shadow: 4px 4px 50px #025539;
+}
+
+.tables > div > table,
+tr,
+th,
+td {
+    font-size: 1.2rem;
+    border: 3px solid #025539;
+    text-align: left;
+    border-collapse: collapse;
+}
+.maps > iframe {
+    border-radius: 20px;
+}
+#vill_img {
+    display: block;
+    margin-block: 35px;
+    border-radius: 20px;
+}
+.nearby_villages {
+    display: flex;
+    justify-content: space-around;
+}
+.pg3 {
+    margin: 20px;
+    padding: 20px;
+    background-color:rgb(226, 226, 226);
+    /* color: white; */
+    border-radius: 20px;
+}
+.contact {
+    font-size: 1.2rem;
+}
+.contact > a {
+}
+#github,
+#ig {
+    display: flex;
+    /* align-items: center; */
+    color:white;
+}
+#copyright {
+    font-size: 0.9rem;
+}
+#note {
+    font-size: 0.6rem;
 }
