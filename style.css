@@ -41,7 +41,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
-    gap:1rem;
+    gap: 1rem;
     /* background-color: #ffffff; */
 }
 .tables > div {
@@ -80,11 +80,7 @@ td {
     margin: 20px;
     padding: 20px;
     background-color: rgb(226, 226, 226);
-    /* color: white; */
     border-radius: 20px;
-}
-.contact {
-    font-size: 1.2rem;
 }
 #copyright {
     font-size: 0.9rem;
@@ -105,8 +101,8 @@ td {
     .pg1 {
         font-size: 2rem;
     }
-    .pg2{
-        margin:10px;
+    .pg2 {
+        margin: 10px;
     }
     .pg2 > p {
         text-align: center;
@@ -119,5 +115,14 @@ td {
     .maps > iframe {
         width: 290px;
         height: 300px;
+    }
+    .pg3 {
+        background-color: #03a46e;
+    }
+    #copyright {
+        font-size: 0.8rem;
+    }
+    #note {
+        font-size: 0.4rem;
     }
 }
