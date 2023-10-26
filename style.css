@@ -41,6 +41,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
+    gap:1rem;
     /* background-color: #ffffff; */
 }
 .tables > div {
